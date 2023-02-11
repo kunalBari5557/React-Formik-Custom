@@ -4,10 +4,11 @@ import { useFormik } from "formik";
 import DateArray from "./component/DateArray";
 import FormikContainer from "./components/FormikContainer";
 import FormikControl from "./components/FormikControl";
+import LoginForm from "./components/LoginForm";
 function App() {
   return (
     <div>
-      <FormikContainer />
+      <LoginForm />
     </div>
   );
 }
