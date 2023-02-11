@@ -6,11 +6,12 @@ import FormikContainer from "./components/FormikContainer";
 import FormikControl from "./components/FormikControl";
 import LoginForm from "./components/LoginForm";
 import RegistrationForm from "./components/RegistrationForm";
+import EnrollmentForm from "./components/EnrollmentForm";
 
 function App() {
   return (
     <div>
-      <RegistrationForm />
+      <EnrollmentForm />
     </div>
   );
 }
