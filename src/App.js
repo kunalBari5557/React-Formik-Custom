@@ -10,7 +10,7 @@ import EnrollmentForm from "./components/EnrollmentForm";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <EnrollmentForm />
     </div>
   );
